@@ -6,6 +6,7 @@ justify-content: center;
 flex-shrink: 0;
 background: url('./joinbg.png');
 margin-top: 100%;
+max-width: 100%;
 }
 
 
