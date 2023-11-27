@@ -1,0 +1,470 @@
+.endless {
+  color: #000;
+  font-family: Raleway;
+  font-size: 215.656px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: block;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+.possibilities {
+  color: #000;
+  font-family: Raleway;
+  font-size: 215.656px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: block;
+  margin-left: 20%;
+}
+
+.where,
+.imagination,
+.conquers {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 68.728px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 97.5%;
+  color: #008fa0;
+  display: block;
+  margin-left: 30%;
+}
+.imagination {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 68.728px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 97.5%;
+  color: #008fa0;
+  display: block;
+}
+.conquers {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 68.728px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 97.5%;
+  color: #008fa0;
+  display: block;
+}
+
+.phone {
+  position: relative;
+  margin-top: -15%;
+  left: 60%;
+  transform: translate(-50%, -50%) scale(0.5);
+  z-index: 2;
+}
+.airplane img {
+  position: relative;
+  margin-top: -15%;
+  left: 60%;
+  transform: translate(-80%, -150%) scale(1);
+  z-index: 2;
+}
+.blue-text {
+  color: #008FA0;
+}
+.dare {
+  position: absolute;
+  color: #000;
+  font-family: Raleway;
+  font-size: 74.004px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: block;
+  margin-left: 60%;
+  margin-top: -70%;
+}
+.you {
+  position: absolute;
+  color: #000;
+  font-family: Raleway;
+  font-size: 74.004px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: block;
+  margin-left: 55%;
+  margin-top: -65%;
+}
+.phone2{
+  position: absolute;
+  transform: translate(-20%, -85%) scale(0.5);
+}
+.scuba{
+  position: absolute;
+  transform: translate(5%, -100%) scale(0.45);
+  z-index: 2;
+}
+.scene1{
+  position: absolute;
+  transform: translate(80%, -75%) scale(0.7);
+  z-index: 3;
+}
+.scene2{
+  position: absolute;
+  transform: translate(-19%,-75%) scale(0.2);
+  z-index: 2;
+}
+.explore{
+  position: absolute;
+  color: #000;
+font-family: Raleway;
+font-size: 48.26px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 61% ;
+margin-top: -58%;
+}
+.of{
+  position: absolute;
+  color: #000;
+font-family: Raleway;
+font-size: 48.26px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 63%;
+margin-top: -55%;
+}
+.plans{
+  position: absolute;
+  color: #000;
+  font-family: Raleway;
+  font-size: 48.26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 60%;
+  margin-top: -52%;
+}
+.connecting{
+  position: absolute;
+  color: #000;
+  font-family: Raleway;
+  font-size: 74.004px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: block;
+  margin-top: 15%;
+  margin-left: 16%;
+}
+.join{
+  position: absolute;
+  color: #000;
+font-family: Raleway;
+font-size: 48.26px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 26%;
+margin-left: 27%;
+}
+.from{
+  position: absolute;
+  color: #000;
+font-family: Raleway;
+font-size: 48.26px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 29%;
+margin-left: 25%;
+}
+.people1{
+  position: absolute;
+  transform: translate(-42%,-15%) scale(0.15);
+  z-index: 2;
+}
+.people2{
+  position: absolute;
+  transform: translate(-10%, 110%) scale(0.43);
+  z-index: 3;
+}
+.people3{
+  position: absolute;
+  transform: translate(89%, 157%) scale(0.83);
+  z-index: 2;
+}
+.phone3{
+  position: absolute;
+  transform: translate(100%,10%) scale(0.5);
+  z-index: 3;
+}
+/* Media query for responsiveness */
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .endless,
+  .possibilities {
+    font-size: 70px; 
+    margin-left: 5%;
+    max-width: 100%;
+  }
+  .phone {
+    transform: translate(-60%, -51%) scale(0.15);
+    max-width: 100%; 
+  }
+  .airplane img {
+    transform: translate(-58%, -350%) scale(0.8);
+    max-width: 100%; 
+  }
+  .dare{
+  font-size: 215%;
+  margin-left: 5%;
+  transform: translate(15%, -3480%);
+  max-width: 100%;
+  }
+  .you{
+    font-size: 215%;
+  margin-left: 1%;
+  transform: translate(10%, -3430%);
+  max-width: 100%;
+  }
+  .phone2 {
+    transform: translate(-29%, -122%) scale(0.2); 
+  }
+  .explore{
+    font-size: 200%;
+    white-space: nowrap;
+    transform: translate(-60%, -3530%);
+    max-width: 100%;
+  }
+  .of{
+    font-size: 200%;
+    white-space: nowrap;
+    transform: translate(-68%, -3470%);
+    max-width: 100%;
+  }
+  .plans{
+    font-size: 200%;
+    white-space: nowrap;
+    transform: translate(-60%, -3410%);
+    max-width: 100%;
+  }
+  .scuba{
+    transform: translate(-40%,-143%) scale(0.18);
+    max-width: 100%;
+  }
+  .scene1{
+    transform: translate(10%,-193%) scale(0.29);
+    max-width: 100%;
+  }
+  .scene2{
+    transform: translate(-45%,-86%) scale(0.09);
+  }
+  .connecting{
+    font-size: 130%;
+    transform: translate(-12%,-2960%);
+    white-space: nowrap;
+  }
+  .join{
+    font-size: 110%;
+    transform: translate(-17%,-3550%);
+  }
+  .from{
+    font-size: 110%;
+    transform: translate(-17%,-3500%);
+    white-space: nowrap;
+  }
+  .people1{
+    transform: translate(-47%,-68%) scale(0.05);
+  }
+  .people2{
+    transform: translate(-31%,-98%) scale(0);
+  }
+  .people3{
+    transform: translate(-31%,-124%) scale(0.32);
+  }
+  .phone3{
+    transform: translate(-15%,-74%) scale(0.2);
+  }
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+  .endless,
+  .possibilities {
+    font-size: 100px; 
+    margin-left: 5%;
+  }
+  .phone {
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1); 
+    margin-top: -10%; 
+  }
+  .airplane img {
+    left: 50%; 
+    transform: translate(-50%, -150%) scale(0.8); 
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .endless,
+  .possibilities {
+    font-size: 150px; 
+    margin-left: 10%;
+  }
+  .phone {
+    left: 50%; 
+    transform: translate(-50%, -50%) scale(0.3); 
+    margin-top: -18%; 
+  }
+  .airplane img {
+    left: 50%; 
+    transform: translate(-50%, -200%) scale(0.6); 
+    margin-top: -10%; 
+  }
+  .dare{
+    transform: translate(50%, -3400%) scale(0.9); 
+    margin-left: -10%;
+  }
+  .you{
+    transform: translate(40%, -3350%) scale(0.9); 
+    margin-left: -10%;
+  }
+  .quote-2 {
+    transform: translate(20%, -265%) scale(0.5);
+}
+.explore{
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: 200%;
+  transform: translate(-13%,-3050%);
+}
+.of{
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: 200%;
+  transform: translate(-13%,-3020%);
+}
+.plans{
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: 200%;
+  transform: translate(-13%,-2990%);
+}
+.phone2 {
+  transform: translate(-33%,-130%) scale(0.3)
+}
+.scuba {
+  transform: translate(-20%,-177%) scale(0.25)
+}
+.scene1{
+  transform: translate(25%,-217%) scale(0.4)
+}
+.scene2{
+  transform: translate(-35%,-111%) scale(0.09)
+}
+.connecting{
+  font-size: 320%;
+  white-space: nowrap;
+  transform: translate(-15%,-1700%);
+  max-width: 100%;
+}
+.join{
+  font-size: 300%;
+  white-space: nowrap;
+  transform: translate(-22%,-1750%);
+  max-width: 100%;
+}
+.from{
+  font-size: 300%;
+  white-space: nowrap;
+  transform: translate(-22%,-1700%);
+  max-width: 100%;
+}
+.people1{
+  transform: translate(-45%,-65%) scale(0.09)
+}
+.people2{
+  transform: translate(-22%,-75%) scale(0.3)
+}
+.people3{
+  transform: translate(27%,-140%) scale(0.5)
+}
+.phone3{
+  transform: translate(30%,-68%) scale(0.3)
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .endless,
+  .possibilities {
+    font-size: 150px; 
+    margin-left: 10%;
+  }
+  .phone {
+    left: 50%; 
+    transform: translate(-50%, -50%) scale(0.3); 
+    margin-top: -18%; 
+  }
+  .airplane img {
+    left: 50%; 
+    transform: translate(-61%, -200%) scale(0.6); 
+    margin-top: -10%; 
+  }
+  .dare{
+    transform: translate(50%, -3100%) scale(1.5); 
+    margin-left: -10%;
+  }
+  .you{
+    transform: translate(40%, -3050%) scale(1.5); 
+    margin-left: -10%;
+  }
+  .quote-2 {
+    transform: translate(20%, -265%) scale(0.5);
+}
+.explore{
+  transform: translate(-40%,-1650%) scale(0.8);
+  white-space: nowrap;
+}
+.of{
+  transform: translate(-40%,-1630%) scale(0.8);
+  white-space: nowrap;
+}
+.plans{
+  transform: translate(-40%,-1610%) scale(0.8);
+  white-space: nowrap;
+}
+.phone2 {
+  transform: translate(-27%,-125%) scale(0.4);
+}
+.scuba {
+  transform: translate(-10%,-168%) scale(0.3);
+}
+.scene1{
+  transform: translate(45%,-200%) scale(0.5);
+}
+.scene2{
+  transform: translate(-30%,-108%) scale(0.12);
+}
+.connecting{
+  transform: translate(-16%,-1170%) scale(0.8);
+  white-space: nowrap;
+}
+.join{
+  transform: translate(-12%,-1790%) scale(0.8);
+}
+.from{
+  transform: translate(-12%,-1770%) scale(0.8);
+}
+.people1{
+  transform: translate(-44%,-61%) scale(0.1);
+}
+.people2{
+  transform: translate(-22%,-60%) scale(0.3);
+}
+.people3{
+  transform: translate(45%,-120%) scale(0.6);
+}
+.phone3{
+  transform: translate(60%,-60%) scale(0.5)
+}
+}

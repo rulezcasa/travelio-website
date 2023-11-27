@@ -1,0 +1,79 @@
+.wait{
+display: flex;
+width: 100%;
+height: 420px;
+justify-content: center;
+flex-shrink: 0;
+background: url('./joinbg.png');
+margin-top: 100%;
+}
+
+
+
+.wait p {
+    color: #ffffff;; /* Adjust the color to your preference */
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 92px;
+    font-style: normal;
+    font-weight: bold; /* Use a bold font weight */
+    line-height: 1.2; /* Adjust line height for better readability */
+    letter-spacing: 2px; /* Adjust the letter-spacing as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  }
+
+.wait a:link, a:visited {
+       position: absolute;
+        background-color: #000000;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        font-size: 250%;
+        text-decoration: none;
+        display: inline-block;
+        height: 5%;
+        width: 10%;
+        margin-top: 15%;
+        font-family: Raleway;
+        font-style: normal;
+}
+.wait a:hover {
+    color: #000000;
+    background-color: #FFF; /* Change the color upon hover */
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .wait{
+        margin-top: 5%;
+    }
+    .wait p{
+        font-size: 250%;
+        white-space: nowrap;
+    }
+    .wait a:link, a:visited {
+        transform: translate(0%,200%);
+        width: 20%
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 767px)  {
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wait{
+        margin-top: 30%;
+    }
+    .wait a:link, a:visited {
+        transform: translate(0%,150%);
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1200px){
+    .wait{
+        margin-top: 40%;
+    }
+    .wait a:link, a:visited {
+        transform: translate(0%,110%);
+    }
+  }
