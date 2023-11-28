@@ -13,7 +13,7 @@ function Section1() {
       <div className="overlay"></div>
       <div className="logo">
         <img src={logo} alt="Logo"></img>
-        <p className="logo-text">travelio</p>
+        <p className="logo-text">travellio</p>
       </div>
       <div className="navbar">
         <nav>

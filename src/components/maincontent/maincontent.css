@@ -1,3 +1,4 @@
+
 .endless {
   color: #000;
   font-family: Raleway;
@@ -20,9 +21,7 @@
   margin-left: 20%;
 }
 
-.where,
-.imagination,
-.conquers {
+.where {
   position: absolute;
   font-family: Poppins;
   font-size: 68.728px;
@@ -117,7 +116,7 @@
 .explore{
   position: absolute;
   color: #000;
-font-family: Raleway;
+font-family: Poppins;
 font-size: 48.26px;
 font-style: normal;
 font-weight: 300;
