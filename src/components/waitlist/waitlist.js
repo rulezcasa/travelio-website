@@ -4,7 +4,7 @@ import '../cover/collage.png'
 function Section3(){
     return(
     <div className='wait'>
-        <p>Join the waitlist</p>
+        <p>Enter the waitlist</p>
         <a href="https://beacons.ai/travellio" target="_blank">Join</a>
     </div>
     );
