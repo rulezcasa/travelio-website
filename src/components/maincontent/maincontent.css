@@ -506,3 +506,15 @@ margin-left: 25%;
   transform: translate(60%,-60%) scale(0.5)
 }
 }
+@media screen and (min-width: 1620px){
+  .scene1{
+    margin-top: -30%;
+  }
+  .scene2{
+    margin-left: -48%;
+  }
+  .people1{
+    margin-left: -100%;
+    margin-top: -23%;
+  }
+}
