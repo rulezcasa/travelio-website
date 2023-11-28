@@ -148,8 +148,8 @@
   height: auto;
   padding-left: 5%;
 }
-.install a:link,
-.install a:visited {
+a:link,
+a:visited {
   position: absolute;
   background-color: #000000;
   color: white;
@@ -158,9 +158,10 @@
   font-size: 180%;
   text-decoration: none;
   display: inline-block;
-  height: 50%;
-  width: 50%;
-  margin-top: 65%;
+  height: 3%;
+  width: 30%;
+  margin-top: 55%;
+  margin-left: 20%;
   font-family: Raleway;
   font-style: normal;
   font-style: normal;
@@ -173,9 +174,9 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 15px; /* Add border-radius for a premium look */
   font-variant: all-small-caps;
+  z-index: 1;
 }
-
-.install a:hover {
+a:hover {
   color: #000000;
   background-color: #fff;
   /* Change the color upon hover */
@@ -214,6 +215,7 @@
       font-size: 20px;
     }
   }
+  a:link,
   
 @media screen and (min-width: 481px) and (max-width: 767px)  {
   .cover-image{

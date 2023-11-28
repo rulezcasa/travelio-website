@@ -53,17 +53,17 @@
 }
 
 .phone {
-  position: relative;
-  margin-top: -15%;
-  left: 60%;
-  transform: translate(-50%, -50%) scale(0.5);
+  position: absolute;
+  margin-top: -70%;
+  left: 25%;
+  transform: scale(0.5);
   z-index: 2;
 }
 .airplane img {
-  position: relative;
-  margin-top: -15%;
-  left: 60%;
-  transform: translate(-80%, -150%) scale(1);
+  position: absolute;
+  margin-top: 5%;
+  left: 25%;
+  transform: scale(1);
   z-index: 2;
 }
 .blue-text {
@@ -79,7 +79,7 @@
   line-height: normal;
   display: block;
   margin-left: 60%;
-  margin-top: -70%;
+  margin-top: 56%;
   max-width: 100%;
 }
 .you {
@@ -92,35 +92,40 @@
   line-height: normal;
   display: block;
   margin-left: 54%;
-  margin-top: -65%;
+  margin-top: 61%;
   max-width: 100%;
 }
 .phone2{
   position: absolute;
   transform: scale(0.5);
-  margin-top: -80%;
+  margin-top: 45%;
   margin-left: -12%;
 }
 .scuba{
   position: absolute;
-  transform: scale(0.45);
-  margin-top: -63%;
+  transform: scale(0.44);
+  margin-top: 65%;
   margin-left: 4%;
   z-index: 2;
 }
-.scene1{
+.scuba-image{
+  border-radius: 5%;
+}
+.scene1-image{
   position: absolute;
   transform: scale(0.7);
   margin-left: 33%;
-  margin-top: -27%;
   z-index: 3;
+  border-radius: 5%;
+  margin-top: 103%;
 }
-.scene2{
+.scene2-image{
   position: absolute;
-  transform: scale(0.17);
-  margin-left: -54%;
-  margin-top: -99%;
-  z-index: 2;
+  transform: scale(0.14);
+  border-radius: 5%; 
+  margin-top: 26%;
+  margin-left: -59%;
+  z-index: 1;
 }
 .explore{
   position: absolute;
@@ -131,7 +136,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 margin-left: 61% ;
-margin-top: -58%;
+margin-top: 68%;
 }
 .of{
   position: absolute;
@@ -142,7 +147,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 margin-left: 63%;
-margin-top: -55%;
+margin-top: 72%;
 }
 .plans{
   position: absolute;
@@ -153,7 +158,7 @@ margin-top: -55%;
   font-weight: 300;
   line-height: normal;
   margin-left: 60%;
-  margin-top: -52%;
+  margin-top: 76%;
 }
 .connecting{
   position: absolute;
@@ -164,7 +169,7 @@ margin-top: -55%;
   font-weight: 900;
   line-height: normal;
   display: block;
-  margin-top: 15%;
+  margin-top: 150%;
   margin-left: 16%;
 }
 .join{
@@ -175,7 +180,7 @@ font-size: 48.26px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
-margin-top: 26%;
+margin-top: 160%;
 margin-left: 27%;
 }
 .from{
@@ -186,35 +191,38 @@ font-size: 48.26px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
-margin-top: 29%;
+margin-top: 164%;
 margin-left: 25%;
 }
-.people1{
+.people1-image{
   position: absolute;
-  transform:  scale(0.15);
-  margin-left: -110%;
-  margin-top: -32%;
+  transform:  scale(0.13);
+  margin-left: -115%;
+  margin-top: 101.7%;
   z-index: 2;
+  border-radius: 5%;
 }
-.people2{
+.people2-image{
   position: absolute;
   transform: scale(0.43);
-  margin-top: 52%;
-  margin-left: -10%;
-  z-index: 3;
+  margin-top: 165%;
+  margin-left: 5%;
+  z-index: 1;
+  border-radius: 5%;
 }
-.people3{
+.people3-image{
   position: absolute;
   transform: scale(0.83);
-  margin-top: 42%;
-  margin-left: 30%;
+  margin-top: 200%;
+  margin-left: 15%;
   z-index: 2;
+  border-radius: 5%;
 }
 .phone3{
   position: absolute;
   transform: scale(0.5);
   margin-left: 50%;
-  margin-top: 10%;
+  margin-top: 145%;
   z-index: 3;
 }
 /* Media query for responsiveness */
@@ -227,104 +235,117 @@ margin-left: 25%;
     max-width: 100%;
   }
   .phone {
-    transform: translate(-60%, -51%) scale(0.15);
-    max-width: 100%; 
+    transform: scale(0.15);
+    max-width: 100%;
+    margin-left: -30%;
+    margin-top: -237%; 
   }
   .airplane img {
-    transform: translate(-58%, -350%) scale(0.8);
-    max-width: 100%; 
+    transform: scale(0.6);
+    max-width: 100%;
+    margin-left: -25%;
+    margin-top: -25%; 
+  }
+  .quote-2{
+    margin-top: 20%;
+    margin-left: 9%;
   }
   .dare{
   font-size: 215%;
   margin-left: 5%;
-  transform: translate(15%, -3480%);
   max-width: 100%;
-  margin-top: 15;
+  margin-top: 35;
   }
   .you{
     font-size: 215%;
-  margin-left: 1%;
-  transform: translate(10%, -3430%);
+  margin-left: 1%;;
   max-width: 100%;
+  margin-top: 65%;
   }
   .phone2 {
     transform: scale(0.2);
     margin-left: -60%;
-    margin-top: -540%; 
+    margin-top: -57%;
   }
   .explore{
-    font-size: 200%;
+    font-size: 175%;
     white-space: nowrap;
-    transform: translate(-60%, -3530%);
     max-width: 100%;
+    margin-left: 12%;
+    margin-top: 80%;
   }
   .of{
-    font-size: 200%;
+    font-size: 175%;
     white-space: nowrap;
-    transform: translate(-68%, -3470%);
+    margin-left: 16%;
+    margin-top: 87%;
     max-width: 100%;
   }
   .plans{
-    font-size: 200%;
+    font-size: 175%;
     white-space: nowrap;
-    transform: translate(-60%, -3410%);
+    margin-left: 9%;
+    margin-top: 94%;
     max-width: 100%;
   }
   .scuba{
     transform:  scale(0.18);
     max-width: 100%;
     margin-left: -40%;
-    margin-top: -400%;
+    margin-top: 80%;
   }
   .scene1{
-    transform: scale(0.28);
-    margin-left: 14%;
-    margin-top: -349%;
+    transform: scale(0.4);
+    margin-left: -3%;
     max-width: 100%;
+    margin-top: 163%;
   }
+
   .scene2{
-    transform: scale(0.07);
+    transform: scale(0.6);
     max-width: 100%;
-    margin-left: -27%;
-    margin-top: -519%;
+    margin-left: -242%;
+    margin-top: -65%;
   }
   .connecting{
-    font-size: 120%;
+    font-size: 140%;
     white-space: nowrap;
-    margin-top: -170%;
-    margin-left: 10%;
+    margin-left: 4%;
+    margin-top: 300%;
     max-width: 100%;
   }
   .join{
     font-size: 110%;
     max-width: 100%;
-    margin-top: -160%;
-    margin-left: 10%;
+    margin-top: 310%;
+    margin-left: 14%;
   }
   .from{
     font-size: 110%;
     white-space: nowrap;
-    margin-left: 10%;
+    margin-top: 316%;
+    margin-left: 11%;
     max-width: 100%;
-    margin-top: -153%;
   }
-  .people1{
+  .people1-image{
     transform: scale(0.05);
-    margin-left: -495%;
-    margin-top: -470%;
+    margin-left: -496%;
+    margin-top: 5%;
   }
-  .people2{
-    transform: translate(-31%,-98%) scale(0);
+  .people2-image{
+    transform: scale(0.15);
+    margin-left: -113%;
+    margin-top: 253%;
   }
-  .people3{
+  .people3-image{
     transform: scale(0.32);
-    margin-left: -50%;
-    margin-top: -142%;
+    margin-left: -30%;
+    margin-top: 332%;
   }
   .phone3{
     transform: scale(0.2);
-    margin-left: -33%;
-    margin-top: -319%;
+    margin-left: -57%;
+    margin-top: 80%;
   }
 
 }
@@ -356,165 +377,249 @@ margin-left: 25%;
     margin-top: -18%; 
   }
   .airplane img {
-    left: 50%; 
-    transform: translate(-50%, -200%) scale(0.6); 
+    margin-left: -17%; 
+    transform: scale(0.6); 
     margin-top: -10%; 
   }
   .dare{
-    transform: translate(50%, -3400%) scale(0.9); 
-    margin-left: -10%;
+    transform: scale(1.5); 
+    margin-left: 26%;
+    max-width: 100%;
+    margin-top: 140%;
   }
   .you{
-    transform: translate(40%, -3350%) scale(0.9); 
-    margin-left: -10%;
+    transform: scale(1.5); 
+    margin-left: 13%;
+    max-width: 100%;
+    margin-top: 154%;
   }
   .quote-2 {
-    transform: translate(20%, -265%) scale(0.5);
+    transform: scale(0.5);
+    margin-left: -10%;
 }
 .explore{
   max-width: 100%;
   white-space: nowrap;
-  font-size: 200%;
-  transform: translate(-13%,-3050%);
+  font-size: 250%;
+  margin-top: 94%;
+  margin-left: 20%;
 }
 .of{
   max-width: 100%;
   white-space: nowrap;
-  font-size: 200%;
-  transform: translate(-13%,-3020%);
+  font-size: 250%;
+  margin-top: 100%;
+  margin-left: 20%;
 }
 .plans{
   max-width: 100%;
   white-space: nowrap;
-  font-size: 200%;
-  transform: translate(-13%,-2990%);
+  font-size: 250%;
+  margin-top: 106%;
+  margin-left: 20%;
 }
 .phone2 {
-  transform: translate(-33%,-130%) scale(0.3)
+  transform: scale(0.35);
+  margin-left: 0%;
+  margin-top: 50%;
 }
-.scuba {
-  transform: translate(-20%,-177%) scale(0.25)
+.scuba-image {
+  transform: scale(0.81);
+  margin-top: 81%;
+  margin-left: -74%;
 }
-.scene1{
-  transform: translate(25%,-217%) scale(0.4)
+.scene1-image{
+transform: scale(0.57);
+margin-top: 166%;
+margin-left: 32%;
 }
-.scene2{
-  transform: translate(-35%,-111%) scale(0.09)
+.scene2-image{
+transform: scale(0.17);
+margin-top: 110%;
+margin-left: -191%;
 }
 .connecting{
-  font-size: 320%;
+  font-size: 300%;
   white-space: nowrap;
-  transform: translate(-15%,-1700%);
   max-width: 100%;
+  margin-left: 3%;
+  margin-top: 280%;
 }
 .join{
-  font-size: 300%;
+  font-size: 270%;
   white-space: nowrap;
-  transform: translate(-22%,-1750%);
   max-width: 100%;
+  margin-left: 9%;
+  margin-top: 293%;
 }
 .from{
-  font-size: 300%;
+  font-size: 270%;
   white-space: nowrap;
-  transform: translate(-22%,-1700%);
   max-width: 100%;
+  margin-left: 6%;
+  margin-top: 300%;
 }
-.people1{
-  transform: translate(-45%,-65%) scale(0.09)
+.people1-image{
+  transform: scale(0.09);
+  margin-left: -224%;
+  margin-top: 235%;
+  z-index: 3;
 }
-.people2{
-  transform: translate(-22%,-75%) scale(0.3)
+.people2-image{
+  transform: scale(0.3);
+  margin-top: 352%;
+  margin-left: -20%;
+  z-index: 2;
 }
-.people3{
-  transform: translate(27%,-140%) scale(0.5)
+.people3-image{
+  transform: scale(0.6);
+  margin-top: 405%;
+  margin-left: 10%;
 }
 .phone3{
-  transform: translate(30%,-68%) scale(0.3)
+  transform: scale(0.35);
+  margin-top: 250%;
+  margin-left: -1%;
+  z-index: 1;
 }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px){
   .endless,
   .possibilities {
     font-size: 150px; 
-    margin-left: 10%;
+    margin-left: 20%;
   }
   .phone {
-    left: 50%; 
-    transform: translate(-50%, -50%) scale(0.3); 
-    margin-top: -18%; 
+    left: 15%; 
+    transform:  scale(0.3); 
+    margin-top: -90%; 
   }
   .airplane img {
-    left: 50%; 
-    transform: translate(-61%, -200%) scale(0.6); 
-    margin-top: -10%; 
+    left: 20%; 
+    transform:  scale(0.6); 
+    margin-top: -12%; 
   }
   .dare{
-    transform: translate(50%, -3100%) scale(1.5); 
-    margin-left: -10%;
+    transform: scale(1.5); 
+    margin-left: 30%;
+    margin-top: 95%;
   }
   .you{
-    transform: translate(40%, -3050%) scale(1.5); 
-    margin-left: -10%;
+    transform: scale(1.5); 
+    margin-left: 32%;
+    margin-top: 108%;
   }
   .quote-2 {
-    transform: translate(20%, -265%) scale(0.5);
+    transform: scale(0.5);
+    margin-left: 14%;
+    max-width: 100%;
+    margin-top: 2%;
 }
 .explore{
-  transform: translate(-40%,-1650%) scale(0.8);
+  transform: scale(0.8);
   white-space: nowrap;
+  margin-left: 40%;
+  margin-top: 53%;
 }
 .of{
-  transform: translate(-40%,-1630%) scale(0.8);
+  transform: scale(0.8);
   white-space: nowrap;
+  margin-left: 41%;
+  margin-top: 58%;
 }
 .plans{
-  transform: translate(-40%,-1610%) scale(0.8);
+  transform: scale(0.8);
   white-space: nowrap;
+  margin-left: 40%;
+  margin-top: 63%;
 }
 .phone2 {
-  transform: translate(-27%,-125%) scale(0.4);
+  transform: scale(0.4);
+  margin-left: -20%;
+  margin-top: 10%;
 }
-.scuba {
-  transform: translate(-10%,-168%) scale(0.3);
+.scuba-image {
+  transform: scale(0.7);
+  margin-left: -30%;
+  margin-top: -40%;
 }
-.scene1{
-  transform: translate(45%,-200%) scale(0.5);
+.scene1-image{
+  transform: scale(0.5);
+  margin-left: 30%;
+  margin-top: 76%;
 }
-.scene2{
-  transform: translate(-30%,-108%) scale(0.12);
+.scene2-image{
+  transform: scale(0.12);
+  margin-left: -98%;
+  margin-top: -10%;
 }
 .connecting{
-  transform: translate(-16%,-1170%) scale(0.8);
+  transform: scale(0.8);
   white-space: nowrap;
+  margin-left: 1%;
+  margin-top: 130%;
 }
 .join{
-  transform: translate(-12%,-1790%) scale(0.8);
+  transform: scale(0.8);
+  margin-left: 19%;
+  margin-top: 140%;
 }
 .from{
-  transform: translate(-12%,-1770%) scale(0.8);
+  transform: scale(0.8);
+  margin-left: 16.5%;
+  margin-top: 144%;
 }
-.people1{
-  transform: translate(-44%,-61%) scale(0.1);
+.people1-image{
+  transform: scale(0.1);
+  margin-left: -155%;
+  margin-top: 59%;
 }
-.people2{
-  transform: translate(-22%,-60%) scale(0.3);
+.people2-image{
+  transform: scale(0.3);
+  margin-left: -10%;
+  margin-top: 140%;
 }
-.people3{
-  transform: translate(45%,-120%) scale(0.6);
+.people3-image{
+  transform: scale(0.6);
+  margin-top: 176%;
+  margin-left: 10%;
 }
 .phone3{
-  transform: translate(60%,-60%) scale(0.5)
+  transform: scale(0.39);
+  margin-left: 47%;
+  margin-top: 115%;
 }
 }
 @media screen and (min-width: 1620px){
-  .scene1{
-    margin-top: -30%;
+  .phone{
+    margin-top: -64%;
   }
-  .scene2{
-    margin-left: -48%;
+  .scene1-image{
+    margin-top: 97%;
   }
-  .people1{
-    margin-left: -100%;
-    margin-top: -23%;
+  .scene2-image{
+    transform: scale(0.19);
+    margin-left: -46%;
+    margin-top: 30%;
+  }
+  .connecting{
+    margin-top: 140%;
+  }
+  .join{
+    margin-top: 150%;
+  }
+  .from{
+    margin-top: 154%;
+  }
+  .people1-image{
+    margin-left: -103%;
+    margin-top: 105%;
+  }
+  .people2-image{
+    margin-top: 161%;
+  }
+  .people3-image{
+    margin-left: 13%;
+    margin-top: 192%;
   }
 }

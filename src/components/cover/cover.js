@@ -40,8 +40,8 @@ function Section1() {
       <div className='install'>
     <img className='appstore' src={appstore} alt='appstore'></img>
     <img className='playstore' src={googleplay} alt='googleplay'></img>
-    <a href="https://beacons.ai/travellio" target="_blank">Join the waitlist</a>
     </div>
+    <a className="join" href="https://beacons.ai/travellio" target="_blank">Join the waitlist</a>
     </div>
   );
 }

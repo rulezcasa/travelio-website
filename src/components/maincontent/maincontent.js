@@ -45,24 +45,24 @@ function Section2(){
                 <img src={phone2}></img>
             </div>
             <div className='scuba'>
-            <img src={scuba}></img>
+            <img className='scuba-image' src={scuba}></img>
             </div>
             <div className='scene1'>
-            <img src={scene1}></img>
+            <img className='scene1-image' src={scene1}></img>
             </div>
             <div className='scene2'>
-            <img src={scene2}></img>
+            <img className='scene2-image' src={scene2}></img>
             </div>
 
 
             <div className='people1'>
-                <img src={people1}></img>
+                <img className='people1-image' src={people1}></img>
             </div>
             <div className='people2'>
-            <img src={people2}></img>
+            <img className='people2-image' src={people2}></img>
             </div>
             <div className='people3'>
-            <img src={people3}></img>
+            <img className='people3-image' src={people3}></img>
             </div>
             <div className='phone3'>
             <img src={phone3}></img>
