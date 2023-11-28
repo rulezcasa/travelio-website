@@ -214,12 +214,6 @@
       font-size: 20px;
     }
   }
-  .install a:link,
-  .install a:visited{
-    transform: scale(0.5);
-    margin-top: 130%;
-    margin-left: -23%;
-  }
   
 @media screen and (min-width: 481px) and (max-width: 767px)  {
   .cover-image{
