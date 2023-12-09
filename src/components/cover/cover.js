@@ -6,8 +6,16 @@ import wave from "./wave.svg";
 import googleplay from "./google-play.svg";
 import appstore from "./app-store.svg";
 import "./cover.css";
+import { useNavigate } from 'react-router-dom';
 
 function Section1() {
+
+  const navigate = useNavigate();
+
+  const handleContactClick = () => {
+    navigate('/contact');
+  };
+  
   return (
     <div className="cover-image">
       <div className="overlay"></div>
@@ -21,7 +29,7 @@ function Section1() {
             <li>About</li>
             <li>Blog</li>
             <li>Trips</li>
-            <li>Contact</li>
+            <li onClick={handleContactClick} >Contact</li>
           </ul>
         </nav>
       </div>
