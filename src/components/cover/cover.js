@@ -20,6 +20,9 @@ function Section1() {
     navigate('/team');
   };
   
+  const Undercons=()=>{
+    alert('Page under construction!')
+  }
   return (
     <div className="cover-image">
       <div className="overlay"></div>
@@ -31,8 +34,8 @@ function Section1() {
         <nav>
           <ul>
             <li onClick={TeamClick} >About</li>
-            <li>Blog</li>
-            <li>Trips</li>
+            <li onClick={Undercons}>Blog</li>
+            <li onClick={Undercons}>Trips</li>
             <li onClick={ContactClick} >Contact</li>
           </ul>
         </nav>

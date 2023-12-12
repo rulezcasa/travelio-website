@@ -7,7 +7,7 @@ import varun from './varun.jpeg'
 import akanksh from './akanksh.jpeg'
 import srihari from './srihari.jpeg'
 import manav from './manav.jpeg'
-import eshaan from './eshaan.jpeg'
+import eshaan from './eshaan.jpg'
 import kunal from './kunal.jpeg'
 import email from './email.png'
 import { Link } from 'react-router-dom';
@@ -46,6 +46,8 @@ function Team(){
             Jaskaran Singh Walia
           </p>
           <p className="text-blk position">
+          Co-founder
+          <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -58,6 +60,8 @@ function Team(){
             Srihari Unnikrishnan
           </p>
           <p className="text-blk position">
+          Co-founder
+          <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -70,6 +74,8 @@ function Team(){
             Varun Vashisht
           </p>
           <p className="text-blk position">
+          App dev
+          <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -82,6 +88,8 @@ function Team(){
             Harish Thangaraj
           </p>
           <p className="text-blk position">
+          Web dev
+          <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -94,6 +102,8 @@ function Team(){
             Eshaan Joshi
           </p>
           <p className="text-blk position">
+          App dev
+          <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -106,6 +116,8 @@ function Team(){
             Akanksh Sinha
           </p>
           <p className="text-blk position">
+          App dev
+          <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -118,6 +130,8 @@ function Team(){
             Manav Garg
           </p>
           <p className="text-blk position">
+            UI/UX
+            <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -130,6 +144,8 @@ function Team(){
             Kunal Khulbe
           </p>
           <p className="text-blk position">
+            App dev
+            <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>
@@ -142,6 +158,8 @@ function Team(){
             Anshika bhandari
           </p>
           <p className="text-blk position">
+            Marketing
+            <br></br>
           <img src={linkedin}></img>
           <img src={email}></img>
           </p>

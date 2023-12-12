@@ -1,18 +1,32 @@
 import '../contactus/contact.css';
 import { useForm, ValidationError } from '@formspree/react';
+import boat from './boat.svg'
+import airplane from './airplane.png'
+import { useNavigate } from 'react-router-dom';
+
 
 function Contact() {
+  
+  const navigate = useNavigate();
+
+  const BackHome = () => {
+    navigate('/');
+  };
+
   const componentStyle = {
     background: 'radial-gradient(circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 90%)',
+    
 };    
   const [state, handleSubmit] = useForm("xvojebob");
     if (state.succeeded) {
-        return <p>Thanks for getting in touch!</p>;
+      alert('Thanks for getting in touch!')
+      navigate('/')
     }
     return (
+    <div className='outer'>
     <div className='main' style={componentStyle} >
       <h1>Contact Us</h1>
-      <h3>Leave a message below and we'll get in touch with you shortly! </h3>
+      <h3>Leave a message below and we'll get in <span className='blue-text'>touch</span> with you shortly! </h3>
       <form onSubmit={handleSubmit}>
 
         <div className="txt_field">
@@ -38,10 +52,13 @@ function Contact() {
         </div>
 
         <input type="submit" value="Submit" />
+        <br></br>
+        <br></br>
+        <input onClick={BackHome}  type="back" value="Back to homepage" />
         <input type="hidden" name="_template" value="table" />
-
       </form>
     </div>
+     </div>
   );
 }
 
