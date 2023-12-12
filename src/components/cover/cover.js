@@ -12,8 +12,12 @@ function Section1() {
 
   const navigate = useNavigate();
 
-  const handleContactClick = () => {
+  const ContactClick = () => {
     navigate('/contact');
+  };
+
+  const TeamClick = () => {
+    navigate('/team');
   };
   
   return (
@@ -26,10 +30,10 @@ function Section1() {
       <div className="navbar">
         <nav>
           <ul>
-            <li>About</li>
+            <li onClick={TeamClick} >About</li>
             <li>Blog</li>
             <li>Trips</li>
-            <li onClick={handleContactClick} >Contact</li>
+            <li onClick={ContactClick} >Contact</li>
           </ul>
         </nav>
       </div>
@@ -48,7 +52,7 @@ function Section1() {
       <div className='install'>
     <img className='appstore' src={appstore} alt='appstore'></img>
     <img className='playstore' src={googleplay} alt='googleplay'></img>
-    </div>
+    </div >
     <a className="join" href="https://beacons.ai/travellio" target="_blank">Join the waitlist</a>
     </div>
   );

@@ -2,6 +2,7 @@ import Section1 from './components/cover/cover';
 import Section2 from './components/maincontent/maincontent';
 import Section3 from './components/waitlist/waitlist';
 import Contact from './components/contactus/contact';
+import Team from './components/team/team';
 import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           }
         />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/team" element={<Team/>}/>
       </Routes>
     </Router>
   );

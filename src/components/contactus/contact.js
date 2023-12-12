@@ -2,13 +2,17 @@ import '../contactus/contact.css';
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
-    const [state, handleSubmit] = useForm("xvojebob");
+  const componentStyle = {
+    background: 'radial-gradient(circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 90%)',
+};    
+  const [state, handleSubmit] = useForm("xvojebob");
     if (state.succeeded) {
         return <p>Thanks for getting in touch!</p>;
     }
     return (
-    <div className='main'>
+    <div className='main' style={componentStyle} >
       <h1>Contact Us</h1>
+      <h3>Leave a message below and we'll get in touch with you shortly! </h3>
       <form onSubmit={handleSubmit}>
 
         <div className="txt_field">

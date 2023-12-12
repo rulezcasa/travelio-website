@@ -214,8 +214,10 @@ a:hover {
       padding: 10px;
       font-size: 20px;
     }
+    a{
+      transform: translate(-19%,340%);
+    }
   }
-  a:link,
   
 @media screen and (min-width: 481px) and (max-width: 767px)  {
   .cover-image{
@@ -260,6 +262,7 @@ a:hover {
     transform:translateX(20%) scale(0.7);
     margin-top: 50%;
   }
+
 
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
