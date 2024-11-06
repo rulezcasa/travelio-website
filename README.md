@@ -1,17 +1,32 @@
+# Travellio - Landing Page
 
-# Travellio - An AI based startup organization connecting travelers based on a smart recommendation system.
+Welcome to the landing page repository for **Vialux Nomadic Travellio Solutions Private Limited (Travellio)**. This project was created to showcase Travellio's brand and provide an engaging, intuitive user experience for our travel solutions startup. 
 
-Travellio focuses on the unique value proposition of our app, emphasizing how it brings people together to explore the world, create unforgettable memories, and build meaningful connections with others who share their passion for travel. 
+[Live Site](https://www.travellio.xyz/) 
 
-This is a landing page for the company's marketting and advertising campaign.
+<img width="1289" alt="Screenshot 2024-11-06 at 10 25 35 AM" src="https://github.com/user-attachments/assets/b48562a8-1ba4-4341-9799-92461b0fb01f">
 
-### Teck stack:
-1. ReactJs
-2. Css
-3. Bootstrap
+---
 
+## About the startup
 
-<img width="1726" alt="Screenshot 2023-11-28 at 10 05 42 AM" src="https://github.com/rulezcasa/travelio-website/assets/108048779/3a274701-234e-4c67-9755-7950cfcff795">
+Travellio aims to revolutionize travel experiences by offering personalized, flexible, and affordable travel solutions. Designed and developed this landing page to represent our brand online, highlighting our services and user-focused approach.
 
-Deployment link : https://travelio-website-eta.vercel.app/
+---
 
+## Technologies Used
+
+- **Frontend**: React, Next.js, HTML5, CSS3, JavaScript
+- **Styling**: Tailwind CSS / SCSS
+- **Hosting**: vercel
+
+---
+
+## Features
+
+- **Responsive Design**: Optimized for mobile, tablet, and desktop.
+- **User-Centric Interface**: Simplified layout for easy navigation.
+- **Optimized Performance**: Lightweight code structure and minimized assets.
+- **SEO Ready**: Proper meta tags and accessible design for search engine indexing.
+
+---
